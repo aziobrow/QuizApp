@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">Quiz App</string>
+
+    <!-- Instructions for how to respond to radio button questions #1 and #2-->
+    <string name="radio_button_instructions">Each of the sentence correction questions presents a sentence, part or all of which is underlined. Select the answer that produces the most effective sentence; your answer should make the sentence clear, exact, and free of grammatical error."</string>
+
+    <!-- First multiple choice sentence completion question with answer choices A-E-->
+    <string name="question_one">1) Although a surge in retail sales <u>have raised hopes that there is a recovery finally </u>under way, many economists say that without a large amount of spending the recovery might not last.</string>
+    <string name="answer_1a">have raised hopes that there is a recovery finally</string>
+    <string name="answer_1b">raised hopes for there being a recovery finally</string>
+    <string name="answer_1c">had raised hopes for a recovery finally being</string>
+    <string name="answer_1d">has raised hopes that a recovery is finally</string>
+    <string name="answer_1e">raised hopes for a recovery finally</string>
+
+    <!-- Second multiple choice sentence completion question with answer choices A-E-->
+    <string name="question_two">2) Manufacturers rate batteries in watt-hours; <u>if they rate the watt-hour higher, the longer </u>the battery can be expected to last.</string>
+    <string name="answer_2a">if they rate the watt-hour higher, the longer</string>
+    <string name="answer_2b">rating the watt-hour higher, it is that much longer</string>
+    <string name="answer_2c">the higher the watt-hour rating, the longer</string>
+    <string name="answer_2d">the higher the watt-hour rating, it is that much longer that</string>
+    <string name="answer_2e">when the watt-hour rating is higher, the longer it is</string>
+
+    <!--Instructions for how to respond to checkbox question-->
+    <string name="checkbox_instructions">3) Check all of the sentences that contain grammatical errors.</string>
+
+    <!-- CheckBox sentence choices where user must choose only the sentences containing incorrect grammar-->
+    <string name="checkbox_1">Lin drove to work, but Guy rode his bike.</string>
+    <string name="checkbox_2">Lin, as well as Guy, drive to work every day.</string>
+    <string name="checkbox_3">Andrew and Lisa are inseparable; doing everything together.</string>
+    <string name="checkbox_4">The teacher is confident her students mastered the lesson.</string>
+
+    <!--Instructions for EditText question-->
+    <string name="edit_text_instructions">4) Read the sentence below:</string>
+
+    <!-- Question for EditText question-->
+    <string name="edit_text_question">None of the attempts to specify the causes of crime explains why most of the people exposed to the alleged causes do not commit crimes and, conversely, why so many of those not so exposed have.</string>
+
+    <!-- Directs user in how to respond to EditText question-->
+    <string name="edit_text_hint"><font size="11">Type the word that makes the sentence above grammatically incorrect.</font></string>
+
+    <!--End of quiz message-->
+    <string name="congratulations">Congratulations! You have reached the end of the quiz. Click Submit for your results.</string>
+
+    <!--Text to appear on submission button-->
+    <string name="submit_button">Submit</string>
+
+</resources>
